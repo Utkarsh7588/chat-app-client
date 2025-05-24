@@ -11,16 +11,9 @@ export default defineConfig({
     port: 8081,
     proxy: {
       '/api':{
-        target: 'http://192.168.1.36:8080',
+        target: "https://webchat.zapto.org",
         changeOrigin: true,
-        ws: true,
-        rewrite: (path) => path.replace(/^\/ws-chat/, '')
-      },
-      '/ws-chat': {
-        target: 'ws://192.168.1.36:8080',
-        changeOrigin: true,
-        ws: true,
-        rewrite: (path) => path.replace(/^\/ws-chat/, '')
+        ws: true
       }
     }
   },

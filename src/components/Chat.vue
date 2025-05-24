@@ -144,7 +144,7 @@ export default {
         return;
       }
 
-      const wsUrl = `ws://192.168.1.36:8080/ws-chat?token=${token}&groupId=${this.groupId}`;
+      const wsUrl = `wss://webchat.zapto.org/ws-chat/?token=${token}&groupId=${this.groupId}`;
       const socket = new WebSocket(wsUrl);
 
       socket.onerror = (error) => {
