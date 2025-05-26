@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="37.07" height="36" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 198"><path fill="#41B883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0h47.36Z"></path><path fill="#41B883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0H0Z"></path><path fill="#35495E" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0H50.56Z"></path></svg>
+<svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Connection nodes -->
+  <circle cx="10" cy="10" r="2" fill="#646cff"/>
+  <circle cx="30" cy="10" r="2" fill="#646cff"/>
+  <circle cx="20" cy="30" r="2" fill="#646cff"/>
+  
+  <!-- Connecting lines -->
+  <path d="M10 10L20 30" stroke="#646cff" stroke-width="1.5"/>
+  <path d="M30 10L20 30" stroke="#646cff" stroke-width="1.5"/>
+  
+  <!-- Chat bubble -->
+  <path d="M12 18H28C29.1 18 30 18.9 30 20V28C30 29.1 29.1 30 28 30H12C10.9 30 10 29.1 10 28V20C10 18.9 10.9 18 12 18Z" fill="#646cff"/>
+  <path d="M20 14C22.2 14 24 15.8 24 18H16C16 15.8 17.8 14 20 14Z" fill="#646cff"/>
+</svg>
